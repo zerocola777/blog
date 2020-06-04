@@ -23,7 +23,7 @@ module.exports = {
     ],
     title: "Zero Degree",
     description: 'For you a thousand times over',
-    dest: 'public',
+    //dest: 'public',
     head: [
       ['link', { rel: 'icon', href: '/favicon.ico' }],
       ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }]
