@@ -18,7 +18,7 @@ git add -A
 git config --global user.name "zerodegree"
 git config --global user.email "77849093@qq.com"
 git commit -m "${msg}"
-git push -f $githubUrl master # 推送到github
+git push -f $githubUrl master:gh-pages # 推送到github
 
 # deploy to coding
 echo 'www.zerodegree.top\nzerodegree.top' > CNAME  # 自定义域名
