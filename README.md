@@ -1,1 +1,1 @@
-# 这是文档
+[GitHub Actions 实现自动部署静态博客](http://zerodegree.top)
