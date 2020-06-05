@@ -29,7 +29,8 @@ echo 'www.zerodegree.top\nzerodegree.top' > CNAME  # 自定义域名
 # fi
 git add -A
 git commit -m "${msg}"
-git push -f git@e.coding.net:zerodegree/zerodegree.git master # 推送到coding
+#git push -f git@e.coding.net:zerodegree/zerodegree.git master # 推送到coding
+git push -f git@git.dev.tencent.com:zerodegree/zerodegree.git master # 推送到coding
 
 cd -
 rm -rf docs/.vuepress/dist
