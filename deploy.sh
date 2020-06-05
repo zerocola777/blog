@@ -8,15 +8,15 @@ cd docs/.vuepress/dist # 进入生成的文件夹
 echo 'blog.zerodegree.top' > CNAME
 if [ -z "$GITHUB_TOKEN" ]; then
   msg='deploy'
-  githubUrl=git@github.com:zerocola777/my-blog.git
+  githubUrl=git@github.com:zerocola777/blog.git
 else
   msg='来自github action的自动部署'
-  githubUrl=https://zerocola777:${GITHUB_TOKEN}@github.com/zerocola777/my-blog.git
+  githubUrl=https://zerocola777:${GITHUB_TOKEN}@github.com/zerocola777/blog.git
+  git config --global user.name "zerodegree"
+  git config --global user.email "77849093@qq.com"
 fi
 git init
 git add -A
-git config --global user.name "zerodegree"
-git config --global user.email "77849093@qq.com"
 git commit -m "${msg}"
 git push -f $githubUrl master:gh-pages # 推送到github
 
