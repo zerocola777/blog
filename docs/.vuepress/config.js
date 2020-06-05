@@ -47,7 +47,8 @@ module.exports = {
           icon: 'reco-message',
           items: [
             // { text: 'GitHub', link: 'https://github.com/zerocola777', icon: 'reco-github' },
-            { text: '个人简历', link: '/blogs/life/about.md', icon: 'reco-account' }
+            { text: '联系', link: '/blogs/life/resume.md', icon: 'reco-account' },
+            { text: '个人简历', link: '/blogs/life/about.md', icon: 'reco-blog' }
           ]
         }
       ],
