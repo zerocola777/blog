@@ -106,7 +106,7 @@ module.exports = {
       // 作者头像
       authorAvatar: '/avatar.png',
       // 备案号
-      record: 'zerodegree-7',
+      record: '鄂ICP备20008479号',
       // 项目开始时间
       startYear: '2017',
       /**
