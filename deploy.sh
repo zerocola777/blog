@@ -25,7 +25,7 @@ echo 'www.zerodegree.top\nzerodegree.top' > CNAME  # 自定义域名
 if [ -z "$CODING_TOKEN" ]; then  # -z 字符串 长度为0则为true；$CODING_TOKEN来自于github仓库`Settings/Secrets`设置的私密环境变量
    codingUrl=git@e.coding.net:zerodegree/zerodegree.git
 else
-   codingUrl=https://zerodegree:${CODING_TOKEN}@zerodegree.coding.net/zerodegree/zerodegree.git
+   codingUrl=https://VzpWUthwxq:${CODING_TOKEN}@e.coding.net/zerodegree/zerodegree.git #注意！！！这里需要使用coding提供的个人令牌的用户名和token
  fi
 git add -A
 git commit -m "${msg}"
