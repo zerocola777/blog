@@ -22,7 +22,7 @@ module.exports = {
         ]
     ],
     title: "Zero Degree",
-    description: 'For you a thousand times over',
+    description: 'For you a thousand times over .',
     //dest: 'public',
     head: [
       ['link', { rel: 'icon', href: '/favicon.ico' }],
