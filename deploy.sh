@@ -22,14 +22,14 @@ git push -f $githubUrl master:gh-pages # 推送到github
 
 # deploy to coding
 echo 'www.zerodegree.top\nzerodegree.top' > CNAME  # 自定义域名
-if [ -z "$CODING_TOKEN" ]; then  # -z 字符串 长度为0则为true；$CODING_TOKEN来自于github仓库`Settings/Secrets`设置的私密环境变量
-  codingUrl=git@e.coding.net:zerodegree/zerodegree.git
-else
-  codingUrl=https://zerodegree:${CODING_TOKEN}@e.coding.net/zerodegree/zerodegree.git
-fi
+# if [ -z "$CODING_TOKEN" ]; then  # -z 字符串 长度为0则为true；$CODING_TOKEN来自于github仓库`Settings/Secrets`设置的私密环境变量
+#   codingUrl=git@e.coding.net:zerodegree/zerodegree.git
+# else
+#   codingUrl=https://zerodegree:${CODING_TOKEN}@e.coding.net/zerodegree/zerodegree.git
+# fi
 git add -A
 git commit -m "${msg}"
-git push -f $codingUrl master # 推送到coding
+git push -f git@e.coding.net:zerodegree/zerodegree.git master # 推送到coding
 
 cd -
 rm -rf docs/.vuepress/dist
