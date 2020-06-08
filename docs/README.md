@@ -1,14 +1,15 @@
 ---
 home: true
-# heroImage: /hero.png
+# heroImage: /bg1.jpg
 # heroImageStyle: {
-#   maxWidth: '600px',
+#   maxWidth: '1920px',
 #   width: '100%',
 #   display: block,
 #   margin: '9rem auto 2rem',
 #   background: '#fff',
 #   borderRadius: '1rem',
 # }
+bgImage: '/bg1.jpg'
 bgImageStyle: {
   height: '350px'
 }
