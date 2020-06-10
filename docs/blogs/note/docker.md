@@ -6,7 +6,6 @@ tags:
  - vm
 categories:
  - 笔记
-author: zerodegree
 ---
 
 
