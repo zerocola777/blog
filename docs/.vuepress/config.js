@@ -21,7 +21,7 @@ module.exports = {
               }
         ]
     ],
-    title: "Zero Degree",
+    title: "Zero Over",
     description: 'For you a thousand times over .',
     //dest: 'public',
     head: [
@@ -102,7 +102,7 @@ module.exports = {
       // 最后更新时间
       lastUpdated: 'Last Updated',
       // 作者
-      author: 'zerodegree',
+      author: 'zero',
       // 作者头像
       authorAvatar: '/avatar.png',
       // 备案号
@@ -126,7 +126,7 @@ module.exports = {
       valineConfig: {
         appId: 'Hap8l2AYAMASvbuoAmlFWkV6-gzGzoHsz',// your appId
         appKey: 'Rxr05UGHCprhMtcKgxNNWNn1', // your appKey
-        placeholder:'填写邮箱，收到回复会发送邮件提醒'
+        //placeholder:'填写邮箱，收到回复会发送邮件提醒'
       }
     },
     markdown: {
