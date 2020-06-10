@@ -12,7 +12,7 @@ if [ -z "$GITHUB_TOKEN" ]; then
 else
   msg='来自github action的自动部署'
   githubUrl=https://zeroover:${GITHUB_TOKEN}@github.com/zeroover/blog.git
-  git config --global user.name "zerodegree"
+  git config --global user.name "zeroover"
   git config --global user.email "77849093@qq.com"
 fi
 git init

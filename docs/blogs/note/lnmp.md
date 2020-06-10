@@ -9,7 +9,6 @@ tags:
  - linux
 categories:
  - 笔记
-author: zerodegree
 ---
 
 ## Linux

@@ -6,7 +6,6 @@ tags:
  - npm
 categories:
  - 笔记
-author: zerodegree
 ---
 
 ## 安装nodejs & npm 

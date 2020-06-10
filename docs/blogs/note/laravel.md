@@ -5,7 +5,6 @@ tags:
  - laravel
 categories:
  - 笔记
-author: zerodegree
 ---
 
 - [laravel速查表](https://learnku.com/docs/laravel-cheatsheet/7.x)
