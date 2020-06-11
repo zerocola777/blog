@@ -4,7 +4,7 @@
 1. 卸载旧版本
 
 
-```shell
+```sh
 $ sudo yum remove docker \
             docker-client \
             docker-client-latest \
@@ -17,7 +17,7 @@ $ sudo yum remove docker \
 
 2. 安装依赖
    
-```shell
+```sh
 $ sudo yum install -y yum-utils \
          device-mapper-persistent-data \
          lvm2
@@ -25,7 +25,7 @@ $ sudo yum install -y yum-utils \
 
 3. 设置稳定的仓库
    
-```shell
+```sh
 $ sudo yum-config-manager \
       --add-repo \
       https://download.docker.com/linux/centos/docker-ce.repo
@@ -33,7 +33,7 @@ $ sudo yum-config-manager \
 
 4. 安装最新版docker
    
-```shell
+```sh
 $ sudo yum install docker-ce docker-ce-cli containerd.io
 ```
 
@@ -41,11 +41,22 @@ $ sudo yum install docker-ce docker-ce-cli containerd.io
 
 [https://cr.console.aliyun.com/cn-hangzhou/instances/mirrors](https://cr.console.aliyun.com/cn-hangzhou/instances/mirrors)
 
+```sh
+sudo mkdir -p /etc/docker
+sudo tee /etc/docker/daemon.json <<-'EOF'
+{
+  "registry-mirrors": ["https://xxxx.mirror.aliyuncs.com"]
+}
+EOF
+sudo systemctl daemon-reload
+sudo systemctl restart docker
+```
+
 
 
 ## 安装docker-compose
 
-```shell
+```sh
 $ sudo curl -L "https://github.com/docker/compose/releases/download/1.25.5/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 //如果速度太慢可以换成下面的地址执行
 $ curl -L https://get.daocloud.io/docker/compose/releases/download/1.25.5/docker-compose-`uname -s`-`uname -m` > /usr/local/bin/docker-compose
