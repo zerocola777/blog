@@ -10,7 +10,7 @@ module.exports = {
                       artist: 'Plastic / Fallin` Dild',
                       url: 'https://assets.smallsunnyfox.com/music/2.mp3',
                       cover: 'https://assets.smallsunnyfox.com/music/2.jpg'
-                    },
+                    }
                     // {
                     //   name: '用胳膊当枕头',
                     //   artist: '최낙타',
