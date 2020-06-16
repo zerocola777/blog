@@ -1,12 +1,10 @@
 ---
-title: 个人简历
-date: 2020-06-01
-
-keys:
-- 'e10adc3949ba59abbe56e057f20f883e'
+title: 联系方式
+author: zerodegree
 isShowComments: false
 ---
 
-:::danger
-你已经看见绝密内容！！！!
+::: danger
+1. QQ:77849093
+2. EMAIL:zerodegreecola@gmail.com
 :::
