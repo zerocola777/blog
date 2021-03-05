@@ -39,6 +39,7 @@ module.exports = {
         //     { text: 'vuepress-reco', link: '/docs/theme-reco/' }
         //   ]
         // },
+        
         { text: '资源', 
           icon: 'reco-message',
           link: '/resources/'
